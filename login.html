@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Cloud Admin | Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- STYLESHEETS --><!--[if lt IE 9]><script src="js/flot/excanvas.min.js"></script><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script><![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/cloud-admin.css" >
+	
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- DATE RANGE PICKER -->
+	<link rel="stylesheet" type="text/css" href="js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+	<!-- UNIFORM -->
+	<link rel="stylesheet" type="text/css" href="js/uniform/css/uniform.default.min.css" />
+	<!-- ANIMATE -->
+	<link rel="stylesheet" type="text/css" href="css/animatecss/animate.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+</head>
+<body class="login">	
+	<!-- PAGE -->
+	<section id="page">
+		<!-- HEADER -->
+		<header>
+			<!-- NAV-BAR -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4">
+						<div id="logo">
+							<a href="index.html"><img src="img/logo/logo.png" height="40" alt="logo name" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/NAV-BAR -->
+		</header>
+			<!-- LOGIN -->
+			<section id="login_bg" class="visible">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<div class="login-box login-form">
+								<h2 class="bigintro">蜂鸟信息系统</h2>
+								<div class="divide-40"></div>
+								  <div class="form-group">
+									<label>用户名</label>
+									<i class="fa fa-phone-square"></i>
+									<input type="text" class="form-control userName">
+									<label class="err-point">请输入6位以上数字或字母</label>
+								  </div>
+								  <div class="form-group"> 
+									<label>密码</label>
+									<i class="fa fa-lock"></i>
+									<input type="password" class="form-control userPwd">
+									  <label class="err-point">请输入6位以上数字或字母</label>
+								  </div>
+								  <div>
+									<button type="button" class="btn btn-danger">登录</button>
+								  </div>
+								<div class="login-helpers">
+									<a href="#" onclick="swapScreen('forgot_bg');return false;">忘记密码?</a> <br>
+									<!--没有账户? <a href="#" onclick="swapScreen('register_bg');return false;">注册账户!</a>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--/LOGIN -->
+			<!-- 注册 -->
+			<!--
+			<section id="register_bg" class="font-400">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<div class="login-box">
+								<h2 class="bigintro">Register</h2>
+								<div class="divide-40"></div>
+								<form role="form">
+								  <div class="form-group">
+									<label for="exampleInputName">Full Name</label>
+									<i class="fa fa-font"></i>
+									<input type="text" class="form-control" id="exampleInputName" >
+								  </div>
+								  <div class="form-group">
+									<label for="exampleInputUsername">Username</label>
+									<i class="fa fa-user"></i>
+									<input type="text" class="form-control" id="exampleInputUsername" >
+								  </div>
+								  <div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<i class="fa fa-envelope"></i>
+									<input type="email" class="form-control" id="exampleInputEmail1" >
+								  </div>
+								  <div class="form-group"> 
+									<label for="exampleInputPassword1">Password</label>
+									<i class="fa fa-lock"></i>
+									<input type="password" class="form-control" id="exampleInputPassword1" >
+								  </div>
+								  <div class="form-group"> 
+									<label for="exampleInputPassword2">Repeat Password</label>
+									<i class="fa fa-check-square-o"></i>
+									<input type="password" class="form-control" id="exampleInputPassword2" >
+								  </div>
+								  <div>
+									<label class="checkbox"> <input type="checkbox" class="uniform" value=""> I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+									<button type="submit" class="btn btn-success">Sign Up</button>
+								  </div>
+								</form>
+								<div class="divide-20"></div>
+								<div class="center">
+									<strong>Or register using your social account</strong>
+								</div>
+								<div class="divide-20"></div>
+								<div class="social-login center">
+									<a class="btn btn-primary btn-lg">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a class="btn btn-info btn-lg">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a class="btn btn-danger btn-lg">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</div>
+								<div class="login-helpers">
+									<a href="#" onclick="swapScreen('login_bg');return false;"> Back to Login</a> <br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			-->
+			<!--/注册 -->
+			<!-- 忘记密码 -->
+			<section id="forgot_bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4">
+							<div class="login-box forgetPwd-form">
+								<h2 class="bigintro">忘记密码</h2>
+								<div class="divide-40"></div>
+								<div class="form-group">
+									<label>手机号码</label>
+									<i class="fa fa-phone-square"></i>
+									<input type="text" class="form-control userPhone">
+								</div>
+								<div class="form-group">
+									<label>验证码</label>
+									<i class="fa fa-pencil-square-o"></i>
+									<input type="text" class="form-control userCode">
+								</div>
+								<div class="form-group">
+									<label>密码</label>
+									<i class="fa fa-lock"></i>
+									<input type="password" class="form-control userPwd">
+								</div>
+								<div class="form-group">
+									<label>确认密码</label>
+									<i class="fa fa-lock"></i>
+									<input type="password" class="form-control userRCode">
+								</div>
+								<div>
+									<button type="button" class="btn btn-info">修改密码</button>
+								</div>
+								<div class="login-helpers">
+									<a href="#" onclick="swapScreen('login_bg');return false;">返回</a><br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 忘记密码 -->
+	</section>
+	<!--/PAGE -->
+	<!-- JAVASCRIPTS -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!-- JQUERY -->
+	<script src="js/jquery/jquery-2.0.3.min.js"></script>
+	<!-- JQUERY UI-->
+	<script src="js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<script src="bootstrap-dist/js/bootstrap.min.js"></script>
+	
+	
+	<!-- UNIFORM -->
+	<script type="text/javascript" src="js/uniform/jquery.uniform.min.js"></script>
+	<!-- BACKSTRETCH -->
+	<script type="text/javascript" src="js/backstretch/jquery.backstretch.min.js"></script>
+	<!-- CUSTOM SCRIPT -->
+	<script src="js/script.js"></script>
+	<script src="js/utils.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+			App.setPage("login_bg");
+			App.init();
+		});
+		function swapScreen(id) {
+			jQuery('.visible').removeClass('visible animated fadeInUp');
+			jQuery('#'+id).addClass('visible animated fadeInUp');
+		}
+		$(".login-form button").click(function () {
+		    var box=$(this).parents(".login-box");
+		    var userName=box.find(".userName");
+		    var userPwd=box.find(".userPwd");
+		    var cur=0;
+			if(!Utils.IsAccount(userName.val())){
+                userName.addClass('err');
+                userName.next().show();
+                cur++;
+			}
+            if(!Utils.IsAccount(userPwd.val())){
+                userPwd.addClass('err');
+                userPwd.next().show();
+                cur++;
+            }
+            if(cur!=0) return;
+            $.ajax({
+                type: 'post',
+                url: '',
+                dataType: 'json',
+                data: {
+                    name:userName.val(),
+					pwd:userPwd.val()
+                },
+                success: function(res){
+                    try{
+                        location.href='index.html'
+                    }catch (e){
+                        Sky.err("系统发生异常！"+e);
+                    }
+                },
+                error: function(xhr, type){
+                    Sky.err("服务器连接错误！");
+                }
+            })
+        });
+		$(".forgetPwd-form button").click(function () {
+            var box=$(this).parents(".login-box");
+            var userPhone=box.find(".userPhone");
+            var userCode=box.find(".userCode");
+            var userPwd=box.find(".userPwd");
+            var userRCode=box.find(".userRCode");
+            var cur=0;
+            if(!Utils.IsAccount(userPhone.val())){
+                userPhone.addClass('err');
+                cur++;
+            }
+            if(!Utils.IsCode(userCode.val())){
+                userCode.addClass('err');
+                cur++;
+            }
+            if(!Utils.IsAccount(userPwd.val())){
+                userPwd.addClass('err');
+                cur++;
+            }
+            if(userPwd.val()!=userRCode.val()){
+                userRCode.addClass('err');
+                cur++;
+            }
+            if(cur!=0) return;
+            $.ajax({
+                type: 'post',
+                url: '',
+                dataType: 'json',
+                data: {
+                    phone:userPhone.val(),
+                    code:userCode.val()
+                },
+                success: function(res){
+                    try{
+
+                    }catch (e){
+                        Sky.err("系统发生异常！"+e);
+                    }
+                },
+                error: function(xhr, type){
+                    Sky.err("服务器连接错误！");
+                }
+            })
+        });
+	</script>
+	<!-- /JAVASCRIPTS -->
+</body>
+</html>
