@@ -3452,6 +3452,7 @@ var Sky=(function () {
           'margin-left':-(sky_main.width()/2),
           'margin-top':-(sky_main.height()/2),
         });
+        
       });
     }
     return {
