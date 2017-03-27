@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d690af96-aa37-4872-b2b6-caeeb40dcc91" name="Default" comment="" />
+    <list default="true" id="d690af96-aa37-4872-b2b6-caeeb40dcc91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -52,18 +56,18 @@
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="386">
-                  <caret line="3454" column="8" lean-forward="false" selection-start-line="3454" selection-start-column="8" selection-end-line="3454" selection-end-column="8" />
+                  <caret line="3454" column="0" lean-forward="false" selection-start-line="3454" selection-start-column="0" selection-end-line="3454" selection-end-column="0" />
                   <folding>
                     <element signature="e#116127#117144#0" expanded="false" />
                     <element signature="e#117175#117621#0" expanded="false" />
                     <element signature="e#117690#118100#0" expanded="false" />
-                    <marker date="1490585592997" expanded="true" signature="26053:26090" ph="..." />
-                    <marker date="1490585592997" expanded="true" signature="56191:56221" ph="..." />
-                    <marker date="1490585592997" expanded="true" signature="57404:57411" ph="×" />
-                    <marker date="1490585592997" expanded="true" signature="116546:116559" ph="..." />
-                    <marker date="1490585592997" expanded="true" signature="116771:116783" ph="..." />
-                    <marker date="1490585592997" expanded="true" signature="116833:116846" ph="..." />
-                    <marker date="1490585592997" expanded="true" signature="117936:117943" ph="×" />
+                    <marker date="1490585686851" expanded="true" signature="26053:26090" ph="..." />
+                    <marker date="1490585686851" expanded="true" signature="56191:56221" ph="..." />
+                    <marker date="1490585686851" expanded="true" signature="57404:57411" ph="×" />
+                    <marker date="1490585686851" expanded="true" signature="116546:116559" ph="..." />
+                    <marker date="1490585686851" expanded="true" signature="116771:116783" ph="..." />
+                    <marker date="1490585686851" expanded="true" signature="116833:116846" ph="..." />
+                    <marker date="1490585686851" expanded="true" signature="117936:117943" ph="×" />
                   </folding>
                 </state>
               </provider>
@@ -142,6 +146,9 @@
       <find>@media</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -180,6 +187,7 @@
     <option name="width" value="1096" />
     <option name="height" value="1936" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -332,21 +340,21 @@
       <option name="presentableId" value="Default" />
       <updated>1489038387536</updated>
       <workItem from="1489038389716" duration="27729000" />
-      <workItem from="1490580214799" duration="4810000" />
+      <workItem from="1490580214799" duration="4969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32539000" />
+    <option name="totallyTimeSpent" value="32698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-1063" width="1096" height="1936" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22683886" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="top" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22696629" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -619,18 +627,18 @@
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
-          <caret line="3454" column="8" lean-forward="false" selection-start-line="3454" selection-start-column="8" selection-end-line="3454" selection-end-column="8" />
+          <caret line="3454" column="0" lean-forward="false" selection-start-line="3454" selection-start-column="0" selection-end-line="3454" selection-end-column="0" />
           <folding>
             <element signature="e#116127#117144#0" expanded="false" />
             <element signature="e#117175#117621#0" expanded="false" />
             <element signature="e#117690#118100#0" expanded="false" />
-            <marker date="1490585592997" expanded="true" signature="26053:26090" ph="..." />
-            <marker date="1490585592997" expanded="true" signature="56191:56221" ph="..." />
-            <marker date="1490585592997" expanded="true" signature="57404:57411" ph="×" />
-            <marker date="1490585592997" expanded="true" signature="116546:116559" ph="..." />
-            <marker date="1490585592997" expanded="true" signature="116771:116783" ph="..." />
-            <marker date="1490585592997" expanded="true" signature="116833:116846" ph="..." />
-            <marker date="1490585592997" expanded="true" signature="117936:117943" ph="×" />
+            <marker date="1490585686851" expanded="true" signature="26053:26090" ph="..." />
+            <marker date="1490585686851" expanded="true" signature="56191:56221" ph="..." />
+            <marker date="1490585686851" expanded="true" signature="57404:57411" ph="×" />
+            <marker date="1490585686851" expanded="true" signature="116546:116559" ph="..." />
+            <marker date="1490585686851" expanded="true" signature="116771:116783" ph="..." />
+            <marker date="1490585686851" expanded="true" signature="116833:116846" ph="..." />
+            <marker date="1490585686851" expanded="true" signature="117936:117943" ph="×" />
           </folding>
         </state>
       </provider>
