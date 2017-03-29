@@ -6422,6 +6422,11 @@ fieldset[disabled] .btn-yellow.active {
 #main-content {
   margin-left: 250px;
 }
+@media(min-width: 768px) and (max-width: 1200px) {
+  #main-content{
+    margin-left: 200px;
+  }
+}
 /* Content */
 #content {
   background-color: #f5f6f6;
@@ -6841,9 +6846,11 @@ fieldset[disabled] .btn-yellow.active {
 }
 .box.border .box-body,
 .box.solid .box-body {
+  width:100%;
   border-radius: 0 0 4px 4px;
   padding: 10px;
   background-color: #FFFFFF;
+  overflow-x: auto;
 }
 .box.border .box-body.big,
 .box.solid .box-body.big {

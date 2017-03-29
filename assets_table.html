@@ -142,21 +142,24 @@
 									<div class="box-body">
 										<table class="table table-hover">
 											<thead>
-											  <tr>
+											<tr>
 												<th>编号</th>
+												<th>投资金额</th>
 												<th>合同金额</th>
-												<th>现金金额</th>
-												<th>资产剩余</th>
-												<th>已兑付金额</th>
+												<th>债权价值</th>
+												<th>可用金额</th>
+												<th>回款金额</th>
+												<th>资产总额</th>
 												<th>起息日</th>
 												<th>到期日</th>
-												<th>资产状态</th>
+												<th>兑付金额</th>
+												<th>资产包状态</th>
 												<th>操作</th>
-											  </tr> 
+											</tr>
 											</thead>
 											<tbody>
 											  <tr>
-												  <td colspan="8" class="text-center">暂无数据</td>
+												  <td colspan="12" class="text-center">暂无数据</td>
 											  </tr>
 											</tbody>
 										  </table>
@@ -288,7 +291,7 @@
                             }
                         }else{
                             html+='<tr>'+
-                                '<td colspan="8" class="text-center">暂无数据</td>'+
+                                '<td colspan="12" class="text-center">暂无数据</td>'+
                                 '</tr>';
                         }
                         el.find('tbody').html(html);

@@ -275,6 +275,11 @@
   position: absolute;
   border-bottom: 1px solid #e7e7e7;
 }
+@media(min-width: 768px) and (max-width: 1200px) {
+  #sidebar{
+    width: 200px;
+  }
+}
 .sidebar-fixed {
   position: fixed !important;
 }
@@ -765,8 +770,8 @@
 #sky-win .sky-win-main .box-body{
   width: 100%;
   max-height: 300px;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 #sky-win .sky-win-main .tools{
   margin-bottom: 0px;
